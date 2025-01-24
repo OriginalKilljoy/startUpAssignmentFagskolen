@@ -42,6 +42,27 @@ body{
     background-color: gray;
 }
 
+.imageGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 p{
     padding-left: 10px;
+}
+
+.verticalLayout{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontalLayout{
+    display: flex;
+    flex-direction: column;
+}
+
+.gridLayout{
+    display: grid;
+    
 }
